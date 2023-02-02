@@ -11,7 +11,7 @@ body {
 }
 .section-hero {
   background-color: #fdf2e9;
-  padding: 9.6rem 0;
+  padding: 4.6rem 0;
 }
 .navbar {
   background-color: #fdf2e9;
@@ -20,9 +20,9 @@ body {
 }
 .nav-textbox ul {
   display: flex;
-  gap: 34px;
+  gap: 48px;
   margin-right: 47px;
-  margin-top: 31px;
+  margin-top: 43px;
 }
 .nav-items li a {
   display: inline-block;
@@ -30,8 +30,8 @@ body {
   color: #333;
   list-style: none;
   font-weight: 500;
-  font-size: 1.3rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 650;
   transition: all 0.3s;
 }
 .hero {
@@ -48,20 +48,32 @@ body {
 .logo {
   height: 1.4rem;
   /* position: absolute; */
-  margin-left: 52px;
+  margin-left: 50px;
   margin-top: 37px;
 }
 .hero-img {
   width: 100%;
 }
 .heading-primary {
-  font-size: 3rem;
+  font-size: 2.8rem;
   line-height: 1.1;
   color: #333;
   letter-spacing: -0.5px;
   margin-bottom: 2.3rem;
   margin-right: -5%;
+  margin-right: auto;
 }
+.heading-primary-1{
+  font-size: 2.5rem;
+  line-height: 1.1;
+  color: #333;
+  letter-spacing: -0.5px;
+  margin-right: -5%;
+  font-family: sans-serif, "Rubik";
+  font-weight: 800;
+  margin-right: auto;
+}
+
 .hero-description {
 font-size: 1.2rem;
     line-height: 1.5;
@@ -136,11 +148,11 @@ h1.heading-primary {
   background-color: #cf711f;
 }
 .logoes img {
-  height: 2.2rem;
+  height: 1.8rem;
   filter: brightness(0);
   opacity: 50%;
 }
-.container h1 {
+.container-f h1 {
   text-align: center;
   font-size: 1rem;
   text-transform: uppercase;
@@ -155,8 +167,10 @@ h1.heading-primary {
 }
 .logoes {
   display: flex;
+  flex-wrap: wrap;
   gap: 45px;
-  margin-left: 89px;
+  align-items: center;
+  justify-content: center;
 }
 .container {
   max-width: 120rem;
@@ -173,9 +187,10 @@ h1.heading-primary {
   letter-spacing: 0.75px;
 }
 .heading-secondary {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.2;
   margin-bottom: 6.6rem;
+  margin-right: auto;
 }
 section .section-how,
 .container h2 {
@@ -197,6 +212,8 @@ section .section-how,
   font-size: 2.3rem;
   line-height: 1.2;
   margin-bottom: 2.2rem;
+  color: #333;
+  font-weight: 800;
 }
 .step-description {
   font-size: 1.2rem;
@@ -249,7 +266,7 @@ section .section-how,
   padding-top: 7%;
 }
 .meal{
-  width: 27%;
+  width: 24%;
 }
 .meal-content{
   padding: 3.2rem 4.8rem 4.8rem 4.8rem;
@@ -324,7 +341,7 @@ border-start-start-radius: 11px;
   border-end-end-radius: 11px;
   border-start-end-radius: 11px;
   border-start-start-radius: 11px;
-  width: 27%;
+  width: 24%;
   margin-left: 57px;
 }
 .tag-1{
@@ -358,7 +375,7 @@ border-start-start-radius: 11px;
     margin-top: 25px;
 }
 .deits{
-  margin-left: 36px;
+  margin-left: 70px;
 }
 .img-2{
   width: 10%;
@@ -535,7 +552,7 @@ border-start-start-radius: 11px;
   color: #45260a; 
     color: inherit;
     margin-bottom: 3.2rem;
-    font-size: 2.6rem;
+    font-size: 2.4rem;
 }
 .cv-hero{
   font-size: 1rem;
@@ -718,3 +735,58 @@ padding-bottom: 0.8rem;
     color: #cf711f;
     font-weight: 700;
 }
+.burger{
+  display: none;
+}
+@media screen and (max-width: 680px) {
+
+}
+@media screen and (max-width: 945px) {
+  .hero{
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+  .hero-text-box{
+    text-align: center;
+  }
+  .web{
+    display: none;
+  }
+  .nav-textbox{
+    display: none
+  }
+  .burger{
+    display: flex;
+  }
+  .hamburger-menu{
+    width: 40px;
+    height: 40px;
+  }
+  .hero-description{
+    justify-content: center;
+    text-align: center;
+  }
+  .btn{
+    align-items: center;
+  }
+  .delivered-meals{
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-img{
+    width: 68%;
+    margin: auto;
+  }
+  .container-grid-1{
+    display: block;
+  }
+  
+}
+
+
