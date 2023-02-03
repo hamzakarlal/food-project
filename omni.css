@@ -15,7 +15,6 @@ body {
 }
 .navbar {
   width: 100%;
-  position: fixed;
   height: 4rem;
   background-color: #fdf2e9;
   display: flex;
